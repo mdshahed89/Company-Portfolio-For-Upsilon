@@ -10,8 +10,8 @@ const About = () => {
     <div>
       <div className='h-[500px] flex items-center flex-col bg-[#E8E8ED] justify-center '>
         <Fade direction='up'>
-        <h3 className=' text-2xl text-[#363636] font-semibold '>We are never limited to one </h3>
-        <h1 className=' text-5xl text-blue-700 font-bold '>SINGLE PLATFORM</h1>
+        <h3 className=' text-base md:text-2xl text-[#363636] font-semibold '>We are never limited to one </h3>
+        <h1 className=' text-3xl md:text-5xl text-blue-700 font-bold '>SINGLE PLATFORM</h1>
         </Fade>
       </div>
 

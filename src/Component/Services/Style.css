@@ -1,0 +1,21 @@
+.serv::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(#34343A, #3C3A79);
+    left: 0;
+    top: 0;
+    transition: all .4s linear;
+    z-index: -1;
+}
+.serv:hover::before{
+    width: 100%;
+}
+
+
+.serv{
+    position: relative;
+    z-index: 100000000;
+    z-index: 20;
+}

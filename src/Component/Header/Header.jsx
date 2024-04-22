@@ -43,7 +43,7 @@ const Header = () => {
             <Link to={"/"}><img src={Logo} alt="" className='w-full h-full object-cover ' /></Link>
           </div>
           <div className='hidden md:block'>
-            <nav className='text-[#ffffff] flex items-center justify-center gap-16 box-border'>
+            <nav className='text-[#ffffff] flex items-center justify-center gap-12 lg:gap-16 box-border'>
               <NavLink
                 to={"/"}
                 className={({ isActive }) => `${isActive ? "active" : null} duration-300 text-[12px] transition navs`}
@@ -57,6 +57,10 @@ const Header = () => {
                 to={"/products"}
                 className={({ isActive }) => `${isActive ? "active" : null} duration-300 text-[12px] transition navs`}
               >Our Products</NavLink>
+              <NavLink
+                to={"/partners"}
+                className={({ isActive }) => `${isActive ? "active" : null} duration-300 text-[12px] transition navs`}
+              >Our Partners</NavLink>
               <NavLink
                 to={"/portfolio"}
                 className={({ isActive }) => `${isActive ? "active" : null} duration-300 text-[12px] transition navs`}
@@ -124,13 +128,17 @@ const Header = () => {
             to={"/about"}
             onClick={handleMenuClick}
             className={({ isActive }) => `${isActive ? "activate" : null}`}
-          // style={textStyle}
           >About Us</NavLink>
+            <NavLink
+              to={"/products"}
+              onClick={handleMenuClick}
+              className={({ isActive }) => `${isActive ? "activate" : null}`}
+            >Our Products</NavLink>
           <NavLink
-            to={"/products"}
+            to={"/partners"}
             onClick={handleMenuClick}
             className={({ isActive }) => `${isActive ? "activate" : null}`}
-          >Our Products</NavLink>
+          >Our Partners</NavLink>
           <NavLink
             to={"/portfolio"}
             onClick={handleMenuClick}

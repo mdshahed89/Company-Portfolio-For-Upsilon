@@ -4,6 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  plugins: {
+    'postcss-import': {},
+    'tailwindcss/nesting': 'postcss-nesting',
+    tailwindcss: {},
+    'postcss-preset-env': {
+      features: { 'nesting-rules': false },
+    },
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -12,5 +20,6 @@ export default {
     },
   },
   plugins: [],
+ 
 }
 

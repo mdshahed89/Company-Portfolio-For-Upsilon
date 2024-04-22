@@ -13,9 +13,9 @@ const Hero = () => {
         />
       </div>
       <div className='flex justify-center '>
-        <div className=' max-w-[1320px] mx-auto w-full flex items-center pl-[1rem] md:items-start flex-col justify-center absolute top-0 h-full text-white  '>
+        <div className=' max-w-[1320px] mx-auto w-full flex items-center md:pl-[1rem] md:items-start flex-col justify-center absolute top-0 h-full text-white  '>
           <Fade direction='up'>
-            <h3 className='md:text-5xl text-3xl font-semibold '>CODING YOUR VISION.</h3>
+            <h3 className='md:text-5xl text-2xl sm:text-3xl font-semibold '>CODING YOUR VISION.</h3>
           </Fade>
           <Fade direction='up'>
             <p className='md:text-2xl mt-2 text-center text-base'>Build a future in online business with our team</p>

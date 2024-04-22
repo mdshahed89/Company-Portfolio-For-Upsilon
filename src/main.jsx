@@ -8,6 +8,7 @@ import About from './Pages/About.jsx';
 import Portfolio from './Pages/Portfolio.jsx';
 import Contact from './Pages/Contact.jsx';
 import Products from './Pages/Products.jsx';
+import Partners from './Pages/Partners.jsx';
 
 const router = createBrowserRouter([{
   path:"/",
@@ -20,6 +21,10 @@ const router = createBrowserRouter([{
     {
       path: "/about",
       element: <About />
+    },
+    {
+      path: "/partners",
+      element: <Partners />
     },
     {
       path: "/products",

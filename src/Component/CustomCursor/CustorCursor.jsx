@@ -3,7 +3,7 @@ import AnimatedCursor from "react-animated-cursor"
 
 const CustorCursor = () => {
   return (
-    <div>
+    <div className='md:block hidden '>
       <AnimatedCursor
       innerSize={12}
       outerSize={30}

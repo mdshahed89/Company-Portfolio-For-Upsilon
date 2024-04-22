@@ -17,7 +17,7 @@ import { Fade } from "react-awesome-reveal";
 const Portfolio = () => {
   return (
     <div>
-      <div className='h-[80vh] '>
+      <div className=' h-[50vh] md:h-[80vh] '>
         <img src={PortfolioImg} alt="" className='w-full h-full object-cover' />
       </div>
       <div>

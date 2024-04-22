@@ -15,7 +15,7 @@ const Work = () => {
         <ScrollTrigger onEnter={() => setTriggerScroll(true)} onExit={() => setTriggerScroll(false)} >
 
 
-            <div className='flex justify-center my-[2rem]  md:flex-row flex-col text-[#1B1B1B] items-center  '>
+            <div className='flex justify-center mt-[2rem]  md:flex-row flex-col text-[#1B1B1B] items-center  '>
                 <div className='w-full md:w-1/2 bg-[#BDDCF8]  py-12  md:pt-20 flex justify-end '>
                     <div className=' max-w-[660px] md:mx-0 mx-auto px-5  '>
                         <div className='md:mb-[5rem] mb-[3rem] '>

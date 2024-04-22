@@ -1,14 +1,14 @@
 import React from 'react'
 import AboutImg from "../assets/AboutImg.jpg"
-import AboutImg1 from "../assets/aboutImg3.png"
-import AboutImg2 from "../assets/aboutImg2.png"
+import AboutImg1 from "../assets/aboutImg2.png"
+import AboutImg2 from "../assets/aboutImg3.png"
 import { Fade } from "react-awesome-reveal";
 
 
 const About = () => {
   return (
     <div>
-      <div className='h-[500px] flex items-center flex-col bg-[#E8E8ED] justify-center '>
+      <div className=' h-[300px] md:h-[500px] flex items-center flex-col bg-[#E8E8ED] justify-center '>
         <Fade direction='up'>
         <h3 className=' text-base md:text-2xl text-[#363636] font-semibold '>We are never limited to one </h3>
         <h1 className=' text-3xl md:text-5xl text-blue-700 font-bold '>SINGLE PLATFORM</h1>
@@ -32,7 +32,7 @@ const About = () => {
 
         <div className='grid md:grid-cols-2 gap-6 grid-cols-1 '>
           <div className='bg-[#E8EAED] rounded-lg pb-6 '>
-            <div className='h-[350px]'>
+            <div className=''>
               <img src={AboutImg1} alt="" className='w-full rounded-t-lg h-full ' />
             </div>
             <div className='mt-7 text-center py-[1rem] px-[4%] '>
@@ -44,7 +44,7 @@ const About = () => {
           </div>
 
           <div className='bg-[#CEEAD6] rounded-lg pb-6'>
-            <div className='h-[350px]'>
+            <div className=''>
               <img src={AboutImg2} alt="" className='w-full rounded-t-lg h-full ' />
             </div>
             <div className='mt-7 text-center py-[1rem] px-[4%] '>
